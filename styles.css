@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+    border: 2px solid black;
+}
+.box-without {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 1rem;
+    height: 300px;
+    border: 2px solid black;
+}
